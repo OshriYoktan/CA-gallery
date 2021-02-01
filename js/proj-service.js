@@ -9,6 +9,15 @@ var gProj = [
         url: "img/portfolio/1.png",
         publishedAt: 1448693940000,
         labels: ["Matrixes", " ,keyboard events"]
+    },
+    {
+        id: 2,
+        name: "Touch Nums",
+        title: "Touch on the series of numbers",
+        desc: "you start from number 1 and every time touch the next number!",
+        url: "img/portfolio/2.png",
+        publishedAt: 1448693940000,
+        labels: ["Matrixes", " ,keyboard events"]
     }
 ]
 
