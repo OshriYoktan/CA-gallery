@@ -41,4 +41,11 @@ function renderModal(projId) {
 
 }
 
+function getUrl(){
+    var clientEmail = $('#clientEmail').val();
+    var clientSubject = $('#clientSubject').val();
+    var clientBody = $('#clientTextArea').val();
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${clientEmail}&su=${clientSubject}&body=${clientBody}&bcc=someone.else@example.com`)
+    
+}
 
